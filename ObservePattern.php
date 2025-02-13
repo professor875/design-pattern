@@ -76,7 +76,7 @@ class PhoneDisplay implements Observer {
         $temperature = $this->weatherStation->getTemperature();
         echo "Phone Display: Temperature = $temperature°C\n";
     }
-}
+} 
 
 class TVDisplay implements Observer {
     private $weatherStation;
